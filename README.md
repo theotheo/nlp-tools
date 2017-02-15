@@ -1,6 +1,7 @@
 ## NLP Tools Comparison
 ### Table
-    <table border="1" class="dataframe">
+
+<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -53,9 +54,13 @@
       <td></td>
       <td>Word and phrase frequencies</td>
       <td></td>
-      <td>1) POS based on `pattern`\n2) POS based on NLTK‘s TreeBank tagger\n3) NP based on Shlomi Babluki’s implementation\n4) NP uses the CoNLL 2000 corpus to train a tagger</td>
+      <td>1) POS based on `pattern`
+2) POS based on NLTK‘s TreeBank tagger
+3) NP based on Shlomi Babluki’s implementation
+4) NP uses the CoNLL 2000 corpus to train a tagger</td>
       <td></td>
-      <td>PatternAnalyzer (based on the `pattern`)\nNaiveBayesAnalyzer (an NLTK classifier trained on a movie reviews corpus)</td>
+      <td>PatternAnalyzer (based on the `pattern`)
+NaiveBayesAnalyzer (an NLTK classifier trained on a movie reviews corpus)</td>
       <td>Naive Bayes, Decision Tree</td>
       <td></td>
       <td></td>
@@ -113,7 +118,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>POS (NN, VB, JJ, DT)\nChunks (NP)</td>
+      <td>POS (NN, VB, JJ, DT)
+Chunks (NP)</td>
       <td></td>
       <td></td>
       <td>Naive Bayes, Perceptron, k-NN, SVM</td>
@@ -143,7 +149,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>\n</td>
+      <td>
+</td>
       <td></td>
       <td></td>
       <td></td>
@@ -366,14 +373,16 @@
     </tr>
     <tr>
       <th>11</th>
-      <td>spaCy\n</td>
+      <td>spaCy
+</td>
       <td></td>
       <td>https://github.com/explosion/spaCy/</td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>- Non-destructive tokenization\n- Syntax-driven sentence segmentation</td>
+      <td>- Non-destructive tokenization
+- Syntax-driven sentence segmentation</td>
       <td>"fast and accurate syntactic dependency parser"</td>
       <td></td>
       <td>Rule-based matching</td>
@@ -384,9 +393,11 @@
       <td></td>
       <td></td>
       <td>English and German tagging models with rule-based morphology</td>
-      <td>&gt; 10 built-in types\nStand-off format and token tags training</td>
+      <td>&gt; 10 built-in types
+Stand-off format and token tags training</td>
       <td></td>
-      <td>\n</td>
+      <td>
+</td>
       <td></td>
       <td></td>
       <td></td>
@@ -426,7 +437,8 @@
     </tr>
     <tr>
       <th>13</th>
-      <td>SyntaxNet\n</td>
+      <td>SyntaxNet
+</td>
       <td></td>
       <td>https://github.com/tensorflow/models/tree/master/syntaxnet</td>
       <td></td>
@@ -456,7 +468,8 @@
     </tr>
     <tr>
       <th>14</th>
-      <td>langid\n</td>
+      <td>langid
+</td>
       <td></td>
       <td></td>
       <td></td>
@@ -486,7 +499,8 @@
     </tr>
     <tr>
       <th>15</th>
-      <td>corenlp-python\n</td>
+      <td>corenlp-python
+</td>
       <td></td>
       <td></td>
       <td></td>
@@ -553,7 +567,8 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>Regex-based segmentation\nRegex-bases tokenization</td>
+      <td>Regex-based segmentation
+Regex-bases tokenization</td>
       <td></td>
       <td>MBLEM-based lemmatization</td>
       <td></td>
@@ -563,7 +578,10 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>POS (NN, JJ, VB)\nChunks (NP, VP)\nRelations (SBJ, OBJ)\n</td>
+      <td>POS (NN, JJ, VB)
+Chunks (NP, VP)
+Relations (SBJ, OBJ)
+</td>
       <td></td>
       <td></td>
       <td></td>
