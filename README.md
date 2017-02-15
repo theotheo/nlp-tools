@@ -9,7 +9,7 @@
       <th></th>
       <th>name</th>
       <th>Corpora</th>
-      <th colspan="6" halign="left">Text processing</th>
+      <th colspan="7" halign="left">Text processing</th>
       <th colspan="3" halign="left"></th>
       <th colspan="2" halign="left">Annotation</th>
       <th colspan="5" halign="left">ML</th>
@@ -22,6 +22,7 @@
       <th></th>
       <th>Splitting</th>
       <th>Parsing</th>
+      <th>Coreference resolution</th>
       <th>Word inflection</th>
       <th>Pattern Matching</th>
       <th>X-grams</th>
@@ -38,7 +39,7 @@
       <th>Vectorization (including embeddings)</th>
       <th></th>
       <th>Translation</th>
-      <th>Language Detection</th>
+      <th>Language Identification</th>
     </tr>
   </thead>
   <tbody>
@@ -48,6 +49,7 @@
       <td></td>
       <td>NLTK-tokenizers</td>
       <td>based on `pattern`</td>
+      <td></td>
       <td>singularize, pluralize, lemmatize</td>
       <td></td>
       <td></td>
@@ -89,11 +91,13 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <th>2</th>
       <td><a href='http://www.clips.ua.ac.be/pages/pattern-en'>pattern</a></td>
       <td>contains API's (Google, Gmail, Bing, Twitter, Facebook, Wikipedia, Wiktionary, DBPedia, Flickr, ...), a robust HTML DOM parser and a web crawler.</td>
+      <td></td>
       <td></td>
       <td></td>
       <td>yes</td>
@@ -116,18 +120,19 @@
     </tr>
     <tr>
       <th>3</th>
-      <td><a href=''>pymorphy2</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>lemmatization</td>
+      <td><a href='http://pymorphy2.readthedocs.io/en/latest/'>pymorphy2</a></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
+      <td>for Russian: singularize, pluralize, lemmatize</td>
       <td></td>
       <td></td>
-      <td><br/></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>for Russian: morphology</td>
       <td></td>
       <td></td>
       <td></td>
@@ -141,6 +146,7 @@
     <tr>
       <th>4</th>
       <td><a href='http://pynlpl.readthedocs.io/en/latest/'>PyNLPl</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -181,6 +187,7 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>glove</td>
       <td></td>
       <td></td>
@@ -188,7 +195,9 @@
     </tr>
     <tr>
       <th>6</th>
-      <td><a href=''>MITIE</a></td>
+      <td><a href='https://github.com/mit-nlp/MITIE'>MITIE</a></td>
+      <td></td>
+      <td>tokenizer</td>
       <td></td>
       <td></td>
       <td></td>
@@ -199,20 +208,20 @@
       <td></td>
       <td></td>
       <td></td>
+      <td>- "bunch of different types of binary relation detector"</td>
+      <td>yes</td>
+      <td>yes</td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>pretrained word_feature_extractor</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <th>7</th>
-      <td><a href=''>gensim</a></td>
+      <td><a href='https://radimrehurek.com/gensim/'>gensim</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -237,6 +246,7 @@
     <tr>
       <th>8</th>
       <td><a href=''>NLTK</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -281,10 +291,12 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr>
       <th>10</th>
-      <td><a href=''>colibri-core</a></td>
+      <td><a href='https://proycon.github.io/colibri-core/'>colibri-core</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -308,10 +320,11 @@
     </tr>
     <tr>
       <th>11</th>
-      <td><a href=''>spaCy<br/></a></td>
+      <td><a href='https://spacy.io/'>spaCy</a></td>
       <td></td>
       <td>- Non-destructive tokenization<br/>- Syntax-driven sentence segmentation</td>
       <td>"fast and accurate syntactic dependency parser"</td>
+      <td></td>
       <td></td>
       <td>Rule-based matching</td>
       <td></td>
@@ -346,6 +359,7 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>yes</td>
       <td></td>
       <td></td>
@@ -356,10 +370,11 @@
     </tr>
     <tr>
       <th>13</th>
-      <td><a href=''>SyntaxNet</a></td>
+      <td><a href='https://www.tensorflow.org/tutorials/syntaxnet'>SyntaxNet</a></td>
       <td></td>
+      <td>tokenizer</td>
+      <td>"transition-based dependency parser"</td>
       <td></td>
-      <td>yes</td>
       <td></td>
       <td></td>
       <td></td>
@@ -380,7 +395,8 @@
     </tr>
     <tr>
       <th>14</th>
-      <td><a href=''>langid</a></td>
+      <td><a href='https://github.com/saffsd/langid.py'>langid</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -404,19 +420,20 @@
     </tr>
     <tr>
       <th>15</th>
-      <td><a href=''>corenlp-python</a></td>
+      <td><a href='http://stanfordnlp.github.io/CoreNLP/'>CoreNLP</a></td>
+      <td></td>
+      <td>tokenizer</td>
+      <td>yes</td>
+      <td>"multi-pass sieve coreference resolution"</td>
+      <td>lemmatize</td>
+      <td>Pattern-based entity extraction</td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>POS</td>
+      <td>- NER with "CRF sequence models"<br/>- "Open information extraction"<br/></td>
       <td></td>
       <td></td>
       <td></td>
@@ -428,10 +445,11 @@
     </tr>
     <tr>
       <th>16</th>
-      <td><a href=''>BLLIP</a></td>
+      <td><a href='https://github.com/BLLIP/bllip-parser'>bllip-parser</a></td>
       <td></td>
       <td></td>
       <td>"8 known unified parsing models", including models for web, news, PubMed texts</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -455,6 +473,7 @@
       <td><a href='http://www.clips.ua.ac.be/pages/MBSP'>MBSP</a></td>
       <td></td>
       <td>Regex-based segmentation<br/>Regex-bases tokenization</td>
+      <td></td>
       <td></td>
       <td>MBLEM-based lemmatization</td>
       <td></td>
