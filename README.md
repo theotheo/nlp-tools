@@ -55,9 +55,9 @@
       <td>integration</td>
       <td></td>
       <td>Word and phrase frequencies</td>
-      <td>1) POS based on `pattern`\n2) POS based on NLTK‘s TreeBank tagger\n3) NP based on Shlomi Babluki’s implementation\n4) NP uses the CoNLL 2000 corpus to train a tagger</td>
+      <td>1) POS based on `pattern`<br/>2) POS based on NLTK‘s TreeBank tagger<br/>3) NP based on Shlomi Babluki’s implementation<br/>4) NP uses the CoNLL 2000 corpus to train a tagger</td>
       <td></td>
-      <td>PatternAnalyzer (based on the `pattern`)\nNaiveBayesAnalyzer (an NLTK classifier trained on a movie reviews corpus)</td>
+      <td>PatternAnalyzer (based on the `pattern`)<br/>NaiveBayesAnalyzer (an NLTK classifier trained on a movie reviews corpus)</td>
       <td>Naive Bayes, Decision Tree</td>
       <td></td>
       <td></td>
@@ -103,7 +103,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>POS (NN, VB, JJ, DT)\nChunks (NP)</td>
+      <td>POS (NN, VB, JJ, DT)<br/>Chunks (NP)</td>
       <td></td>
       <td></td>
       <td>Naive Bayes, Perceptron, k-NN, SVM</td>
@@ -127,7 +127,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>\n</td>
+      <td><br/></td>
       <td></td>
       <td></td>
       <td></td>
@@ -308,9 +308,9 @@
     </tr>
     <tr>
       <th>11</th>
-      <td><a href=''>spaCy\n</a></td>
+      <td><a href=''>spaCy<br/></a></td>
       <td></td>
-      <td>- Non-destructive tokenization\n- Syntax-driven sentence segmentation</td>
+      <td>- Non-destructive tokenization<br/>- Syntax-driven sentence segmentation</td>
       <td>"fast and accurate syntactic dependency parser"</td>
       <td></td>
       <td>Rule-based matching</td>
@@ -320,9 +320,9 @@
       <td></td>
       <td></td>
       <td>English and German tagging models with rule-based morphology</td>
-      <td>> 10 built-in types\nStand-off format and token tags training</td>
+      <td>> 10 built-in types<br/>Stand-off format and token tags training</td>
       <td></td>
-      <td>\n</td>
+      <td><br/></td>
       <td></td>
       <td></td>
       <td></td>
@@ -454,7 +454,7 @@
       <th>17</th>
       <td><a href='http://www.clips.ua.ac.be/pages/MBSP'>MBSP</a></td>
       <td></td>
-      <td>Regex-based segmentation\nRegex-bases tokenization</td>
+      <td>Regex-based segmentation<br/>Regex-bases tokenization</td>
       <td></td>
       <td>MBLEM-based lemmatization</td>
       <td></td>
@@ -463,7 +463,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <td>POS (NN, JJ, VB)\nChunks (NP, VP)\nRelations (SBJ, OBJ)\n</td>
+      <td>POS (NN, JJ, VB)<br/>Chunks (NP, VP)<br/>Relations (SBJ, OBJ)<br/></td>
       <td></td>
       <td></td>
       <td></td>
