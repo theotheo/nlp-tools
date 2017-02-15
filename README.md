@@ -1,6 +1,7 @@
 
 ### NLP Tools Comparison
 ### Table
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
