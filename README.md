@@ -23,6 +23,7 @@
 <style>
 table.dataTable tbody tr {
     background: none !important;
+    height: 150px !important;
 }
 
 table.DTFC_Cloned thead, table.DTFC_Cloned tfoot {
