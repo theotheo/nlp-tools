@@ -26,7 +26,7 @@ table.dataTable tbody tr {
 }
 
 table.DTFC_Cloned thead, table.DTFC_Cloned tfoot {
-    background-color: none !important; 
+    background: none !important; 
 }
 </style>
 
