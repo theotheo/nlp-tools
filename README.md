@@ -20,6 +20,16 @@
     } );
 </script>
 
+<style>
+table.dataTable tbody tr {
+    background: none !important;
+}
+
+table.DTFC_Cloned thead, table.DTFC_Cloned tfoot {
+    background-color: none !important; 
+}
+</style>
+
 <table border="1" class="dataframe cell-border compact">
   <thead>
     <tr>
