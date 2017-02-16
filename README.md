@@ -14,12 +14,13 @@
             
             "fixedHeader": false,
             "scrollX": true,
-            "scrollY": '80vh'
+            "scrollY": '80vh',
+            "class": "display"
         });
     } );
 </script>
 
-<table border="1" class="dataframe">
+<table border="1" class="dataframe cell-border compact">
   <thead>
     <tr>
       <th>name</th>
