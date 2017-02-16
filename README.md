@@ -3,10 +3,25 @@
 
 ### Table
 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/datatables.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('table').DataTable({
+            "paging":   false,
+            "fixedColumns": true,
+            
+            "fixedHeader": false,
+            "scrollX": true,
+            "scrollY": '80vh'
+        });
+    } );
+</script>
+
 <table border="1" class="dataframe">
   <thead>
     <tr>
-      <th></th>
       <th>name</th>
       <th>Corpora</th>
       <th colspan="7" halign="left">Text processing</th>
@@ -17,7 +32,6 @@
       <th colspan="2" halign="left">Multilanguage</th>
     </tr>
     <tr>
-      <th></th>
       <th></th>
       <th></th>
       <th>Splitting</th>
@@ -44,7 +58,6 @@
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href='https://textblob.readthedocs.io/en/dev/'>TextBlob</a></td>
       <td></td>
       <td>NLTK-tokenizers</td>
@@ -69,7 +82,6 @@
       <td>powered by the Google Translate API</td>
     </tr>
     <tr>
-      <th>1</th>
       <td><a href='http://textacy.readthedocs.io'>textacy</a></td>
       <td></td>
       <td></td>
@@ -94,7 +106,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href='http://www.clips.ua.ac.be/pages/pattern-en'>pattern</a></td>
       <td>contains API's (Google, Gmail, Bing, Twitter, Facebook, Wikipedia, Wiktionary, DBPedia, Flickr, ...), a robust HTML DOM parser and a web crawler.</td>
       <td></td>
@@ -119,7 +130,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td><a href='http://pymorphy2.readthedocs.io/en/latest/'>pymorphy2</a></td>
       <td></td>
       <td></td>
@@ -144,7 +154,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td><a href='http://pynlpl.readthedocs.io/en/latest/'>PyNLPl</a></td>
       <td></td>
       <td></td>
@@ -169,7 +178,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td><a href='https://github.com/JonathanRaiman/glove'>glove</a></td>
       <td></td>
       <td></td>
@@ -194,7 +202,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td><a href='https://github.com/mit-nlp/MITIE'>MITIE</a></td>
       <td></td>
       <td>tokenizer</td>
@@ -219,7 +226,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td><a href='https://radimrehurek.com/gensim/'>gensim</a></td>
       <td></td>
       <td></td>
@@ -244,7 +250,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td><a href=''>NLTK</a></td>
       <td></td>
       <td></td>
@@ -269,7 +274,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td><a href='https://stopwords.readthedocs.io/en/latest/'>stopwords</a></td>
       <td></td>
       <td></td>
@@ -294,7 +298,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td><a href='https://proycon.github.io/colibri-core/'>colibri-core</a></td>
       <td></td>
       <td></td>
@@ -319,7 +322,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td><a href='https://spacy.io/'>spaCy</a></td>
       <td></td>
       <td>- Non-destructive tokenization<br/>- Syntax-driven sentence segmentation</td>
@@ -344,7 +346,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td><a href='https://research.fb.com/projects/fasttext/'>fastText</a></td>
       <td></td>
       <td></td>
@@ -369,7 +370,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td><a href='https://www.tensorflow.org/tutorials/syntaxnet'>SyntaxNet</a></td>
       <td></td>
       <td>tokenizer</td>
@@ -394,7 +394,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td><a href='https://github.com/saffsd/langid.py'>langid</a></td>
       <td></td>
       <td></td>
@@ -419,7 +418,6 @@
       <td>pre-trained for 97 languages</td>
     </tr>
     <tr>
-      <th>15</th>
       <td><a href='http://stanfordnlp.github.io/CoreNLP/'>CoreNLP</a></td>
       <td></td>
       <td>tokenizer</td>
@@ -444,7 +442,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td><a href='https://github.com/BLLIP/bllip-parser'>bllip-parser</a></td>
       <td></td>
       <td></td>
@@ -469,7 +466,6 @@
       <td></td>
     </tr>
     <tr>
-      <th>17</th>
       <td><a href='http://www.clips.ua.ac.be/pages/MBSP'>MBSP</a></td>
       <td></td>
       <td>Regex-based segmentation<br/>Regex-bases tokenization</td>
