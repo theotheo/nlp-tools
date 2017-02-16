@@ -4,7 +4,7 @@
 ### Table
 
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/datatables.min.css"/>
+
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/datatables.min.js"></script>
 <script>
     $(document).ready(function() {
